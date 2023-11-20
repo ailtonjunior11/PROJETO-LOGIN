@@ -1,0 +1,246 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+
+body {
+
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./assets/conexao.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.div-dad {
+
+    height: 500px;
+    width: 400px;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    background: rgba(36, 36, 36, 0.644);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.418);
+    backdrop-filter: blur(2.9px);
+    -webkit-backdrop-filter: blur(2.9px);
+    border: 1px solid rgba(255, 255, 255, 0.493);
+}
+
+img {
+
+    height: 100px;
+    position: fixed;
+    margin-top: -350px;
+    border-radius: 100px;
+    border: 3px solid #ffffff46;
+}
+
+h1 {
+
+    margin-top: 150px;
+    font-size: 50px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.input {
+
+    height: 50px;
+    width: 100%;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    border-radius: 15px;
+    border: none;
+    font-weight: 400;
+    font-size: 15px;
+    border: 1px solid #000000;
+}
+
+label {
+
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.checkbox {
+
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+a {
+
+    text-decoration: none;
+    color: #ffffff;
+    margin-bottom: 100px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+button {
+
+    height: 40px;
+    width: 15%;
+    position: absolute;
+    margin-top: 420px;
+    font-size: 20px;
+    border-radius: 50px;
+    border: none;
+    background: #000000;
+    color: #ffffff;
+    cursor: pointer;
+    overflow: hidden;
+    font-weight: 600;
+}
+
+button:before {
+
+    position: absolute;
+    content: '';
+    display: inline-block;
+    top: -180px;
+    left: 0;
+    width: 30px;
+    height: 100%;
+    background-color: #fff;
+    animation: shiny-btn1 3s ease-in-out infinite;
+}
+
+button:hover {
+
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+button:active {
+
+    opacity: 0.4;
+}
+
+
+@keyframes shiny-btn1 {
+
+    0% {
+        -webkit-transform: scale(0) rotate(45deg);
+        opacity: 0;
+    }
+
+    80% {
+        -webkit-transform: scale(0) rotate(45deg);
+        opacity: 0.5;
+    }
+
+    81% {
+        -webkit-transform: scale(4) rotate(45deg);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: scale(50) rotate(45deg);
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width: 860px) {
+
+    body {
+
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(./assets/conexao-mobile.jpeg);
+        background-size: 100%;
+    }
+
+    .div-dad {
+
+        height: 100%;
+        width: 100%;
+        padding: 20px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+        background: #000000a8;
+        border-radius: 8px;
+        box-shadow: none;
+        backdrop-filter: none;
+        -webkit-backdrop-filter: blur(2.9px);
+        border: 1px solid #3a3a3a;
+    }
+
+    img {
+
+        height: 80px;
+        position: relative;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 100px;
+        border: 3px solid #ffffff;
+        background: #000000;
+    }
+
+    h1 {
+
+        margin-top: 0;
+        font-size: 40px;
+        font-weight: 600;
+        color: #ffffff;
+    }
+
+    .input {
+
+        height: 40px;
+        width: 100%;
+        background: #ffffff;
+        color: #000000;
+        position: relative;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        padding-left: 20px;
+        border-radius: 15px;
+        border: none;
+        font-weight: 600;
+        font-size: 14px;
+        border: 1px solid #000000;
+    }
+
+    label {
+
+        font-size: 18px;
+    }
+
+    a {
+
+        margin-bottom: 150px;
+        font-size: 18px;
+        margin-bottom: 75px;
+    }
+
+    button {
+
+        height: 40px;
+        width: 35%;
+        border: 1px solid #ffffff9a;
+        font-size: 16px;
+    }
+}
