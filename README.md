@@ -19,5 +19,5 @@
 <h2>Mobile 📱</h2>
 <img src="https://raw.githubusercontent.com/ailtonjunior11/Projeto-Login/c0536ac9b01167c281b2c6c2681a6d4ee8ddeb22/assets/img-mobile.png" height="500px" />
 <br>
-<h3>Developer 👨🏽‍💻</h3>
+<h3>Developer 👨🏽‍💻 Ailton Junior</h3>
 <img src="https://github.com/ailtonjunior11/Projeto-Quem-sou-Eu/blob/main/photo_2023-07-28_21-08-14.jpg?raw=true" align="center" height="300px" />
